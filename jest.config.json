@@ -1,0 +1,19 @@
+{
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx}"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "statements": 90,
+      "branches": 80,
+      "functions": 90,
+      "lines": 90
+    }
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "testRegex": "src/.*\\.test\\.js$",
+  "coverageReporters": ["json", "lcov", "text", "cobertura"]
+}
